@@ -1,0 +1,52 @@
+﻿Section,Item,Explanation,ID,First name,Last name,Email,Phone,Favorite
+Overview,Initial contacts,20,,,,,,
+Overview,Final contacts,19,,,,,,
+Overview,Final favorites,1,,,,,,
+Overview,Final contacts with phone,19,,,,,,
+Operations,Add,Added 20 sample contacts; three names repeat with different emails. Favorites default to False.,,,,,,
+Operations,List before changes,Listed all contacts in last-name order.,,,,,,
+Operations,Find,Found Ava Chen by ava@example.com.,,,,,,
+Operations,Update,Changed noah@example.com's phone to 555-0199.,,,,,,
+Operations,Toggle favorite,Set mia@example.com's favorite status to True.,,,,,,
+Operations,Delete,Deleted zoe@example.com.,,,,,,
+Operations,List after changes,Listed 19 remaining contacts in last-name order.,,,,,,
+Final list,Contact,,4,Liam,Brooks,liam@example.com,555-0104,No
+Final list,Contact,,8,Liam,Brooks,liam.brooks2@example.com,555-0113,No
+Final list,Contact,,1,Ava,Chen,ava@example.com,555-0101,No
+Final list,Contact,,6,Ava,Chen,ava.chen2@example.com,555-0111,No
+Final list,Contact,,9,Elena,Cruz,elena.cruz@example.com,555-0114,No
+Final list,Contact,,10,Owen,Foster,owen.foster@example.com,555-0115,No
+Final list,Contact,,11,Nora,Garcia,nora.garcia@example.com,555-0116,No
+Final list,Contact,,12,Ethan,Hughes,ethan.hughes@example.com,555-0117,No
+Final list,Contact,,13,Layla,James,layla.james@example.com,555-0118,No
+Final list,Contact,,14,Lucas,Kim,lucas.kim@example.com,555-0119,No
+Final list,Contact,,15,Aria,Morgan,aria.morgan@example.com,555-0120,No
+Final list,Contact,,16,Mason,Nguyen,mason.nguyen@example.com,555-0121,No
+Final list,Contact,,17,Sofia,Owens,sofia.owens@example.com,555-0122,No
+Final list,Contact,,2,Noah,Patel,noah@example.com,555-0199,No
+Final list,Contact,,18,Leo,Perez,leo.perez@example.com,555-0123,No
+Final list,Contact,,19,Chloe,Reed,chloe.reed@example.com,555-0124,No
+Final list,Contact,,3,Mia,Rivera,mia@example.com,555-0103,Yes
+Final list,Contact,,7,Mia,Rivera,mia.rivera2@example.com,555-0112,No
+Final list,Contact,,20,Isaac,Stone,isaac.stone@example.com,555-0125,No
+Initial list,Contact,,4,Liam,Brooks,liam@example.com,555-0104,No
+Initial list,Contact,,8,Liam,Brooks,liam.brooks2@example.com,555-0113,No
+Initial list,Contact,,1,Ava,Chen,ava@example.com,555-0101,No
+Initial list,Contact,,6,Ava,Chen,ava.chen2@example.com,555-0111,No
+Initial list,Contact,,9,Elena,Cruz,elena.cruz@example.com,555-0114,No
+Initial list,Contact,,10,Owen,Foster,owen.foster@example.com,555-0115,No
+Initial list,Contact,,11,Nora,Garcia,nora.garcia@example.com,555-0116,No
+Initial list,Contact,,12,Ethan,Hughes,ethan.hughes@example.com,555-0117,No
+Initial list,Contact,,13,Layla,James,layla.james@example.com,555-0118,No
+Initial list,Contact,,14,Lucas,Kim,lucas.kim@example.com,555-0119,No
+Initial list,Contact,,15,Aria,Morgan,aria.morgan@example.com,555-0120,No
+Initial list,Contact,,16,Mason,Nguyen,mason.nguyen@example.com,555-0121,No
+Initial list,Contact,,17,Sofia,Owens,sofia.owens@example.com,555-0122,No
+Initial list,Contact,,2,Noah,Patel,noah@example.com,(not provided),No
+Initial list,Contact,,18,Leo,Perez,leo.perez@example.com,555-0123,No
+Initial list,Contact,,19,Chloe,Reed,chloe.reed@example.com,555-0124,No
+Initial list,Contact,,3,Mia,Rivera,mia@example.com,555-0103,No
+Initial list,Contact,,7,Mia,Rivera,mia.rivera2@example.com,555-0112,No
+Initial list,Contact,,20,Isaac,Stone,isaac.stone@example.com,555-0125,No
+Initial list,Contact,,5,Zoe,Taylor,zoe@example.com,(not provided),No
+Summary,Findings and requirements,"The isolated demonstration added 20 contacts and finished with 19 after one deletion. It found a contact by email, updated one phone number, and toggled one favorite; the final list contains 1 favorite(s) and 19 contact(s) with a phone number. Both lists are sorted by last name. The model requires first name, last name, and a unique email; phone is optional and favorite defaults to False. The demonstration does not modify the persistent contacts.db used by the CRUD functions.",,,,,,
